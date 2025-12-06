@@ -20,6 +20,6 @@ Node.js (v16+) and npm installed. Check versions:
 
 ## Credits
 
-itzdinnertime
+Github: itzdinnertime
 
 chenjason214@gmail.com
