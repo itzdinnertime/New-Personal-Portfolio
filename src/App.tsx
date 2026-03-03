@@ -21,7 +21,7 @@ const App = () => {
 			<Header />
 
 			<main>
-				<section id="about" className="py-24 px-6 md:px-8">
+				<section id="about" className="py-24 px-6 md:px-8 fade-in">
 					<div className="max-w-6xl mx-auto about-container">
 						<div className="about-picture">
 							<img src={kermitPic} alt="Profile" />
@@ -29,21 +29,22 @@ const App = () => {
 						<div className="about-text text-gray-300">
 							<h2 className="text-3xl font-bold mb-4">About Me</h2>
 							<p>
-								Hi — I’m Jason, a Computer Science student at Carleton University. I build web
-								applications and backend tools using React, TypeScript, Python, and C/C++. I
-								started coding in high school and enjoy projects that combine algorithms with real-world
-								experiences — for example, Tuneshare, a music-matching web app I built to connect users
-								by taste.
+								Hi, I’m Jason, a Computer Science student at Carleton University, currently in my 3rd year.
 							</p>
 							<p style={{ marginTop: '0.75rem' }}>
-								I’m interested in internships and collaborations. If you want to see my code or chat, check
-								out my projects or send me a message.
+								I'm a passionate software developer working in both frontend and backend development.
 							</p>
-						</div>
+							<p style={{ marginTop: '0.75rem' }}>
+								I started programming in high school and have since gravitated toward projects that combine clean architecture, data-driven logic, and intuitive user interfaces.
+							</p>
+							<p style={{ marginTop: '0.75rem' }}>
+								I’m currently seeking internships and technical collaborations. Feel free to explore my projects or reach out — I’m always open to building something meaningful.
+							</p>
+						</div>	
 					</div>
 				</section>
 
-				<section id="experience" className="py-8 px-6 md:px-8">
+				<section id="experience" className="py-8 px-6 md:px-8 fade-in">
 					<div className="max-w-4xl mx-auto">
 						<h2 className="text-3xl font-bold mb-4">Experience</h2>
 						<div className="experience-list">
@@ -77,7 +78,7 @@ const App = () => {
 					</div>
 				</section>
 
-				<Section id="skills" title="Skills">
+				<section id="skills" className="py-8 px-6 md:px-8 fade-in">
 					<div className="skills-list">
 						<div className="skills-row">
 							<strong>Coding Languages:</strong>
@@ -127,14 +128,14 @@ const App = () => {
 							</ul>
 						</div>
 					</div>
-				</Section>
+				</section>
 
 				<Section id="projects" title="Projects">
 					<ProjectSection />
 				</Section>
 
 				<Section id="contacts" title="Contacts">
-					<div className="contact-list">
+					<div className="contact-list fade-in">
 						<a className="contact-item" href="mailto:chenjason214@gmail.com">
 							<svg className="contact-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
 								<path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
